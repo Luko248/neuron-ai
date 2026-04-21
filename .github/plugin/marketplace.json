@@ -5,13 +5,12 @@
   },
   "metadata": {
     "description": "Neuron FE AI marketplace \u2014 skills, slash commands, and subagents for the Neuron component library.",
-    "version": "1.0.0",
-    "pluginRoot": "./plugins"
+    "version": "1.0.0"
   },
   "plugins": [
     {
       "name": "neuron-fe-ai",
-      "source": "neuron-ai",
+      "source": "./plugins/neuron-ai",
       "description": "Neuron FE AI \u2014 skills, slash commands, and subagents for the Neuron component library, distributed in VS Code's Copilot agent-plugin format.",
       "version": "1.0.0",
       "author": {
