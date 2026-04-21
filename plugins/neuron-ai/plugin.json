@@ -1,7 +1,7 @@
 {
   "name": "neuron-fe-ai",
-  "version": "15.3.7-alpha.3",
   "description": "Neuron FE AI — skills, slash commands, and subagents for the Neuron component library, distributed in VS Code's Copilot agent-plugin format.",
+  "version": "1.0.0",
   "author": {
     "name": "Neuron FE"
   },
@@ -13,5 +13,9 @@
     "vscode",
     "github-copilot"
   ],
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "commands": "commands/",
+  "skills": "skills/",
+  "agents": "agents/",
+  "mcpServers": ".mcp.json"
 }
